@@ -30,6 +30,30 @@
       "versions": [
         {
           "version": "1.15.11",
+          "buildVersion": "2.6.1",
+          "date": "2026-05-02T02:56:03Z",
+          "localizedDescription": "Apollo version: \"v1.15.11\"\nImprovedCustomApi version: \"v2.6.1\"\n\nRelease Notes\nFix tab bar disappearing after using iOS share sheet\nKnown Issues\n• Apollo Ultra features may cause app to crash\n• Imgur multi•image upload\n• Uploads usually fail on the first attempt but subsequent retries should succeed\n• Share URLs in private messages and long•tapping them still open in the in•app browser",
+          "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.6.1/NO-EXTENSIONS_Apollo-1.15.11_ImprovedCustomApi-2.6.1.ipa",
+          "size": 78080880
+        },
+        {
+          "version": "1.15.11",
+          "buildVersion": "2.6.0",
+          "date": "2026-05-01T08:16:24Z",
+          "localizedDescription": "Apollo version: \"v1.15.11\"\nImprovedCustomApi version: \"v2.6.0\"\n\nRelease Notes\n• Bulk translation improvements (thanks @icpryde for continuing to refine this!)\r\n    • New Don't Translate languages list in Settings > Translation to keep selected languages untranslated\r\n    • New option to translate post titles in Settings > Translation\r\n    • Various bug fixes and stability improvements\r\n• Tap a comment or post's relative•time label (e.g. \"2.8y\") to show an alert with the absolute creation date and time, mirroring Apollo's existing \"Edited\" alert (144)\r\n• iOS 26/Liquid Glass: fix tab bar not reappearing on scrolling up when \"Hide Bars on Scroll\" is enabled (thanks @icpryde for the fix!) (131, 73)\r\n• Liquid Glass: hide translucent status bar background strip that appears at the top of the screen when \"Hide Bars on Scroll\" is enabled\r\n• Liquid Glass: fix first list row being clipped under nav bar in subreddit list view when \"Hide Bars on Scroll\" is enabled\nKnown Issues\n• Apollo Ultra features may cause app to crash\n• Imgur multi•image upload\n• Uploads usually fail on the first attempt but subsequent retries should succeed\n• Share URLs in private messages and long•tapping them still open in the in•app browser",
+          "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.6.0/NO-EXTENSIONS_Apollo-1.15.11_ImprovedCustomApi-2.6.0.ipa",
+          "size": 78081742
+        },
+        {
+          "version": "1.15.11",
+          "buildVersion": "2.5.0",
+          "date": "2026-04-29T08:24:04Z",
+          "localizedDescription": "Apollo version: \"v1.15.11\"\nImprovedCustomApi version: \"v2.5.0\"\n\nRelease Notes\n• New bulk translation feature for comment threads and self posts (thanks @icpryde for implementing this feature!) (140)\r\n    • When enabled, loaded comments are translated in•place. Configure in Settings > Translation\r\n    • Adds a per•thread globe toggle to switch between translated and original text in comments view\r\n    • Supports both Google and LibreTranslate, with custom LibreTranslate URL and API key\r\n    • Translations persist in place while voting, collapsing and expanding comments, opening previews, scrolling, and refreshing the thread\r\n    • Preserves links while translated and leaves code or preformatted content untranslated\r\n\r\n| | |\r\n|:••:|:••:|\r\n|  |  |\r\nKnown Issues\n• Apollo Ultra features may cause app to crash\n• Imgur multi•image upload\n• Uploads usually fail on the first attempt but subsequent retries should succeed\n• Share URLs in private messages and long•tapping them still open in the in•app browser",
+          "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.5.0/NO-EXTENSIONS_Apollo-1.15.11_ImprovedCustomApi-2.5.0.ipa",
+          "size": 78039213
+        },
+        {
+          "version": "1.15.11",
           "buildVersion": "2.4.0",
           "date": "2026-04-18T18:56:29Z",
           "localizedDescription": "Apollo version: \"v1.15.11\"\nImprovedCustomApi version: \"v2.4.0\"\n\nRelease Notes\n• Add option to proxy Imgur images through DuckDuckGo for regional blocks (138)\r\n    • Enable in Settings > General > Custom API > Media\r\n    • Only supports viewing single images; albums are not supported\nKnown Issues\n• Apollo Ultra features may cause app to crash\n• Imgur multi•image upload\n• Uploads usually fail on the first attempt but subsequent retries should succeed\n• Share URLs in private messages and long•tapping them still open in the in•app browser",
@@ -226,14 +250,47 @@
         }
       },
       "version": "1.15.11",
-      "buildVersion": "2.4.0",
-      "versionDate": "2026-04-18T18:56:29Z",
-      "versionDescription": "Apollo version: \"v1.15.11\"\nImprovedCustomApi version: \"v2.4.0\"\n\nRelease Notes\n• Add option to proxy Imgur images through DuckDuckGo for regional blocks (138)\r\n    • Enable in Settings > General > Custom API > Media\r\n    • Only supports viewing single images; albums are not supported\nKnown Issues\n• Apollo Ultra features may cause app to crash\n• Imgur multi•image upload\n• Uploads usually fail on the first attempt but subsequent retries should succeed\n• Share URLs in private messages and long•tapping them still open in the in•app browser",
-      "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.4.0/NO-EXTENSIONS_Apollo-1.15.11_ImprovedCustomApi-2.4.0.ipa",
-      "size": 77995263
+      "buildVersion": "2.6.1",
+      "versionDate": "2026-05-02T02:56:03Z",
+      "versionDescription": "Apollo version: \"v1.15.11\"\nImprovedCustomApi version: \"v2.6.1\"\n\nRelease Notes\nFix tab bar disappearing after using iOS share sheet\nKnown Issues\n• Apollo Ultra features may cause app to crash\n• Imgur multi•image upload\n• Uploads usually fail on the first attempt but subsequent retries should succeed\n• Share URLs in private messages and long•tapping them still open in the in•app browser",
+      "downloadURL": "https://github.com/Balackburn/Apollo/releases/download/v1.15.11_2.6.1/NO-EXTENSIONS_Apollo-1.15.11_ImprovedCustomApi-2.6.1.ipa",
+      "size": 78080880
     }
   ],
   "news": [
+    {
+      "appID": "com.christianselig.Apollo",
+      "title": "1.15.11_2.6.1 - 02 May",
+      "identifier": "release-1.15.11_2.6.1",
+      "caption": "Update for ImprovedCustomApi now available!",
+      "date": "2026-05-02T02:56:03Z",
+      "tintColor": "#3F91FE",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11_2.6.1"
+    },
+    {
+      "appID": "com.christianselig.Apollo",
+      "title": "1.15.11_2.6.0 - 01 May",
+      "identifier": "release-1.15.11_2.6.0",
+      "caption": "Update for ImprovedCustomApi now available!",
+      "date": "2026-05-01T08:16:24Z",
+      "tintColor": "#3F91FE",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11_2.6.0"
+    },
+    {
+      "appID": "com.christianselig.Apollo",
+      "title": "1.15.11_2.5.0 - 29 Apr",
+      "identifier": "release-1.15.11_2.5.0",
+      "caption": "Update for ImprovedCustomApi now available!",
+      "date": "2026-04-29T08:24:04Z",
+      "tintColor": "#3F91FE",
+      "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
+      "notify": true,
+      "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11_2.5.0"
+    },
     {
       "appID": "com.christianselig.Apollo",
       "title": "1.15.11_2.4.0 - 18 Apr",
@@ -530,39 +587,6 @@
       "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
       "notify": true,
       "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11-1.1.2"
-    },
-    {
-      "appID": "com.christianselig.Apollo",
-      "title": "1.15.11-1.1.1 - 31 Jul",
-      "identifier": "release-1.15.11-1.1.1",
-      "caption": "Update for ImprovedCustomApi now available!",
-      "date": "2024-07-31T19:21:54Z",
-      "tintColor": "#3F91FE",
-      "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
-      "notify": true,
-      "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11-1.1.1"
-    },
-    {
-      "appID": "com.christianselig.Apollo",
-      "title": "1.15.11-1.0.12 - 26 Jul",
-      "identifier": "release-1.15.11-1.0.12",
-      "caption": "Update for ImprovedCustomApi now available!",
-      "date": "2024-07-26T18:49:20Z",
-      "tintColor": "#3F91FE",
-      "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
-      "notify": true,
-      "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11-1.0.12"
-    },
-    {
-      "appID": "com.christianselig.Apollo",
-      "title": "1.15.11-1.0.11 - 28 Feb",
-      "identifier": "release-1.15.11-1.0.11",
-      "caption": "Update for ImprovedCustomApi now available!",
-      "date": "2024-02-28T12:33:18Z",
-      "tintColor": "#3F91FE",
-      "imageURL": "https://raw.githubusercontent.com/Balackburn/Apollo/refs/heads/main/images/news/news_2.png",
-      "notify": true,
-      "url": "https://github.com/Balackburn/Apollo/releases/tag/v1.15.11-1.0.11"
     }
   ]
 }
